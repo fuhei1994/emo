@@ -5,17 +5,8 @@
   "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
   "sites": [
     {
-      "key": "360影视",
-      "name": "🌈EMO影视盒子",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 0,
-      "changeable": 0,
-      "ext": "./lib/360影视.json"
-    },
-    {
       "key": "豆瓣",
-      "name": "🌈豆瓣推荐（用于主页展示）",
+      "name": "🌈EMO影视盒子",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 0,
