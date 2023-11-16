@@ -1,62 +1,97 @@
 {
   "壹墨科技园": "https://link3.cc/emokj",
   "友情提醒": "公众号壹墨科技园：接口完全免费，切勿付费购买。",
-  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/fuhei1994/emo/main/emo.jar;md5;be5890739f7f828fc0b0331ee6b4047e",
+  "spider": "https://gitee.com/emokjy/emo/raw/master/JAR/emoP1.jar;md5;ce0225de185e6e9c31c59b0afa68f3e7",
   "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
   "sites": [
     {
-      "key": "豆瓣",
-      "name": "🌈EMO影视盒子",
+      "key": "csp_好戏",
+      "name": "🌈EMO专享线路",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "searchable": 0,
-      "changeable": 0,
-      "ext": "./lib/drpy.js"
-    },
-    {
-      "key": "🌈emo主力源1",
-      "name": "🌈emo主力源1",
-      "type": 1,
-      "api": "http://cj.lziapi.com/api.php/provide/vod/",
-      "playUrl": "",
+      "api": "csp_XBPQ",
       "searchable": 1,
       "quickSearch": 1,
-      "categories": [
-        "国产动漫",
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "动画片",
-        "冒险片",
-        "武侠片",
-        "科幻片",
-        "战争片",
-        "日韩剧",
-        "港台剧",
-        "欧美剧",
-        "泰国剧",
-        "海外剧",
-        "日韩动漫",
-        "欧美动漫",
-        "国内综艺",
-        "海外综艺",
-        "恐怖片",
-        "灾难片",
-        "悬疑片",
-        "纪录片",
-        "惊悚片",
-        "奇幻片",
-        "剧情片"
-      ]
+      "filterable": 1,
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/好戏.json"
     },
     {
-      "key": "Kuaikan",
+            "key": "索尼",
+            "name": "🌈emo主力源1",
+            "type": 1,
+            "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
+            "playUrl": "",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "categories": ["动作片",
+            "喜剧片",
+            "爱情片",
+            "科幻片",
+            "恐怖片",
+            "剧情片",
+            "战争片",
+            "国产剧",
+            "欧美剧",
+            "韩剧",
+            "日剧",
+            "港剧",
+            "台剧",
+	     "泰剧",
+	     "记录片",
+            "海外剧",
+            "大陆综艺",
+	    "日韩综艺",
+	    "港台综艺",
+	    "欧美综艺",
+	     "足球",
+	    "影视解说",
+            "国产动漫"
+          ]
+        },
+    {
+      "key": "49zy",
       "name": "🌈emo主力源2",
-      "type": 3,
-      "api": "csp_Kuaikan",
+      "type": 1,
+      "api": "https://49zyw.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
-      "changeable": 1
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "categories": [
+        "国产剧",
+        "纪录片",
+        "欧美剧",
+        "香港剧",
+        "动作片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "喜剧片",
+        "动画片",
+        "犯罪片",
+        "韩国剧",
+        "动漫",
+        "电影",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "台湾剧",
+        "国产动漫",
+        "日本动漫",
+        "欧美动漫",
+        "泰国剧",
+        "日剧",
+        "电影解说",
+        "奇幻片",
+        "灾难片",
+        "悬疑片",
+        "其他片",
+        "体育赛事",
+        "海外剧"
+      ]
     },
     {
       "key": "奇优影院",
@@ -65,142 +100,138 @@
       "api": "csp_XBPQ",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/奇优影院.json"
-    },
-    {
-      "key": "乐猪TV",
-      "name": "🌈emo备用源1",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "./lib/乐猪TV.json"
-    },
-        {
-      "key": "YQK_spider",
-      "name": "🌈emo备用源2",
-      "api": "csp_YQKAPP",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "https://api-aws.11ty.top"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/奇优影院.json"
     },
 
-    {
-      "key": "玩偶",
-      "name": "🌈阿里云盘",
+     {
+      "key": "北川影视",
+      "name": "🌈emo手机源1",
       "type": 3,
-      "api": "csp_Wogg",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": {
-        "token": "影視天下第一",
-        "filter": "./lib/wogg.json"
-      },
-      "jar": "./lib/fm1004.jar;md5;badfd75846df45e8cf06b53654312ccf"
-    },
-    {
-      "key": "厂长资源",
-      "name": "厂长影视",
-      "type": 3,
-      "api": "./lib/czzy_open.js",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "快看",
-      "name": "快看1影视",
-      "type": 3,
-      "api": "./lib/kkys_open.js",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "快看影视",
-      "name": "快看2影视",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/快看.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/北川影视.js"
     },
     {
-      "key": "磁力熊",
-      "name": "🧲磁力熊",
+      "key": "光棍影院",
+      "name": "🌈emo手机源2",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/磁力熊[磁].js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/光棍影院.js"
     },
     {
+      "key": "荐片",
+      "name": "🌈emo备用源1",
+      "type": 3,
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/JP.js"
+    },
+   {
+      "key": "9u电影",
+      "name": "🌈emo备用源2",
+      "type": 3,
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/9U电影.js"
+    },
+   {
       "key": "6v电影",
-      "name": "🌈4K高清资源",
+      "name": "🌈4K高清资源（推荐）",
       "type": 3,
       "api": "csp_SixV",
       "searchable": 1,
       "changeable": 1,
       "ext": "http://www.xb6v.com/"
     },
-
+    {"key": "csp_XBPQ_6V",
+  "name": "🌈4K高清资源（备用）",
+  "type": 3,
+  "api": "csp_XBPQ",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "ext":"https://gitee.com/emokjy/emo/raw/master/lib/6v.json"},
+    {"key":"玩偶哥哥",
+    "name":"🌈阿里云盘（扫码登录）",
+    "type":3,
+    "api":"csp_WoGG",
+    "searchable":1,
+    "quickSearch":1,
+    "changeable":0,
+    "ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://www.wogg.xyz/$$$弹"
+    },
+    {
+      "key": "快看影视",
+      "name": "快看影视",
+      "type": 3,
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/快看.js"
+    },
+    {
+      "key": "YQK_spider",
+      "name": "🌈emo备用源3",
+      "api": "csp_YQKAPP",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "https://api-aws.11ty.top"
+    },
     {
       "key": "低端影视",
       "name": "低端影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/ddys.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/ddys.js"
     },
     {
       "key": "两个BT",
       "name": "EMO解析源",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "./lib/两个BT.js"
-    },
-    {
-      "key": "明明",
-      "name": "明明影视",
-      "type": 3,
-      "api": "csp_AppMr",
-      "searchable": 1,
-      "changeable": 1
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/两个BT.js"
     },
 
     {
-      "key": "饭团影视",
-      "name": "饭团影视",
+      "key": "蓝猫动漫",
+      "name": "蓝猫动漫",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "./lib/饭团影视.js"
-    },
-    {
-      "key": "Auete影视",
-      "name": "Auete影视",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "./lib/Auete.js"
-    },
-    {
-      "key": "Dm84",
-      "name": "动漫巴士",
-      "type": 3,
-      "api": "csp_Dm84",
-      "searchable": 1,
-      "changeable": 1
+      "api": "csp_XBPQ",
+      "ext": "分类:日漫$1#国漫$2#剧场$3#美漫$4#少儿$5,分类url:https://www.lmfun.vip/vodshow/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html"
     },
     {
       "key": "csp_Ying",
       "name": "樱花动漫",
       "type": 3,
       "api": "csp_Ying",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Anime1",
+      "name": "日本动漫",
+      "type": 3,
+      "api": "csp_Anime1",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "Dm84",
+      "name": "动漫巴士",
+      "type": 3,
+      "api": "csp_Dm84",
       "searchable": 1,
       "changeable": 1
     },
@@ -213,21 +244,13 @@
       "changeable": 1
     },
     {
-      "key": "csp_Anime1",
-      "name": "日本动漫",
-      "type": 3,
-      "api": "csp_Anime1",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
       "key": "COKEMV",
       "name": "COKE影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/cokemv.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/cokemv.js"
     },
     {
       "key": "csp_DuoX",
@@ -257,20 +280,20 @@
       "key": "新视觉影院",
       "name": "新视觉影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/新视觉影视.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/新视觉影视.js"
     },
 
     {
       "key": "双十电影",
       "name": "双十影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/双十电影.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/双十电影.js"
     },
 
     {
@@ -286,364 +309,337 @@
       "key": "555电影",
       "name": "555影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/555电影[V2].js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/555电影[V2].js"
     },
     {
       "key": "零零七影视",
       "name": "零零七影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/007影视.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/007影视.js"
     },
     {
       "key": "139影视",
       "name": "139影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/139影视.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/139影视.js"
     },
     {
       "key": "348电影网",
       "name": "348影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/348电影网.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/348电影网.js"
     },
     {
       "key": "4K电影网",
       "name": "4K影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/4K电影网.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/4K电影网.js"
     },
     {
       "key": "539影视",
       "name": "539影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/539影视.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/539影视.js"
     },
     {
       "key": "58动漫网",
       "name": "58影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/58动漫.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/58动漫.js"
     },
     {
       "key": "69美剧",
       "name": "69影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/69美剧[V2].js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/69美剧[V2].js"
     },
     {
       "key": "7喜影院",
       "name": "7喜影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/7喜影院.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/7喜影院.js"
     },
     {
       "key": "8号影院",
       "name": "8号影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/8号影院.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/8号影院.js"
     },
     {
       "key": "91影院",
       "name": "91影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/91free.js"
-    },
-    {
-      "key": "9u电影",
-      "name": "9u影视",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "./lib/9U电影.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/91free.js"
     },
     {
       "key": "AnFuns动漫",
       "name": "AnFuns影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/AnFuns.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/AnFuns.js"
     },
 
     {
       "key": "HG影视",
       "name": "HG影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/HG影院[V2].js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/HG影院[V2].js"
     },
     {
       "key": "Icio影视",
       "name": "Icio影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/Icio影视.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/Icio影视.js"
     },
     {
       "key": "OK影院",
       "name": "OK影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/KOK影院.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/KOK影院.js"
     },
     {
       "key": "NT动漫",
       "name": "NT动漫",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/NT动漫.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/NT动漫.js"
     },
 
     {
       "key": "TVB云播",
       "name": "TVB影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/TVB云播.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/TVB云播.js"
     },
     {
       "key": "UM影院",
       "name": "UM影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/UM电影.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/UM电影.js"
     },
     {
       "key": "iKanBot",
       "name": "iKan影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/ikanbot2.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/ikanbot2.js"
     },
 
     {
       "key": "七年影视",
       "name": "七年影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/七年影视.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/七年影视.js"
     },
     {
       "key": "万博剧院",
       "name": "万博影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/万博剧院.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/万博剧院.js"
     },
     {
       "key": "万能影院",
       "name": "万能影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/万能影视.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/万能影视.js"
     },
     {
       "key": "乐鱼影视",
       "name": "乐鱼影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/乐鱼影视.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/乐鱼影视.js"
     },
     {
       "key": "人人影视",
       "name": "人人影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/人人影视.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/人人影视.js"
     },
     {
       "key": "兄弟影视",
       "name": "兄弟影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/兄弟影视.js"
-    },
-    {
-      "key": "光棍影院",
-      "name": "光棍影视",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "./lib/光棍影院.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/兄弟影视.js"
     },
     {
       "key": "免费看影视",
       "name": "免费看影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/免费看.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/免费看.js"
     },
     {
       "key": "八蛋影视",
       "name": "八蛋影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/八蛋影视.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/八蛋影视.js"
     },
     {
       "key": "六度TV",
       "name": "六度影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/六度TV.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/六度TV.js"
     },
     {
       "key": "兰花影院",
       "name": "兰花影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/兰花影院.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/兰花影院.js"
     },
     {
       "key": "凌云影视",
       "name": "凌云影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/凌云影视.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/凌云影视.js"
     },
     {
       "key": "创艺影视",
       "name": "创艺影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/创艺影视.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/创艺影视.js"
     },
     {
       "key": "Gimy剧迷ai",
       "name": "剧迷ai影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/剧迷.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/剧迷.js"
     },
     {
       "key": "Gimy剧迷su",
       "name": "剧迷su影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/剧迷su.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/剧迷su.js"
     },
     {
       "key": "动漫岛",
       "name": "岛动漫",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/动漫岛.js"
-    },
-    {
-      "key": "北川影视",
-      "name": "北川影视",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "./lib/北川影视.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/动漫岛.js"
     },
     {
       "key": "去看吧",
       "name": "去看吧影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/去看吧.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/去看吧.js"
     },
     {
       "key": "咕噜[V2]",
       "name": "咕噜影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/咕噜[V2].js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/咕噜[V2].js"
     },
     {
       "key": "嘶哩嘶哩",
       "name": "嘶哩动漫",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/嘶哩嘶哩.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/嘶哩嘶哩.js"
     },
     {
       "key": "野荷塘",
@@ -652,7 +648,7 @@
       "api": "csp_XBPQ",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/野荷塘.json"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/野荷塘.json"
     },
     {
       "key": "素白白影视",
@@ -661,7 +657,7 @@
       "api": "csp_XBPQ",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/素白白影视.json"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/素白白影视.json"
     },
     {
       "key": "莫扎兔",
@@ -670,7 +666,7 @@
       "api": "csp_XBPQ",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/莫扎兔.json"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/莫扎兔.json"
     },
     {
       "key": "干饭影视",
@@ -679,7 +675,7 @@
       "api": "csp_XBPQ",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/干饭影视.json"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/干饭影视.json"
     },
     {
       "key": "看一看影视",
@@ -688,17 +684,9 @@
       "api": "csp_XBPQ",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/看一看影视.json"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/看一看影视.json"
     },
-    {
-      "key": "奇优影院",
-      "name": "🌈emo主力源3",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "./lib/奇优影院.json"
-    },
+
     {
       "key": "Vidhub",
       "name": "Vidhub影视",
@@ -706,7 +694,7 @@
       "api": "csp_XBPQ",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/Vidhub.json"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/Vidhub.json"
     },
     {
       "key": "冷曦影视",
@@ -715,16 +703,16 @@
       "api": "csp_XBPQ",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/冷曦影视.json"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/冷曦影视.json"
     },
     {
       "key": "NikeTV",
-      "name": "NikeTV影视",
+      "name": "NikeTV影视（有广告）",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/NikeTV.json"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/NikeTV.json"
     },
     {
       "key": "APP影院",
@@ -733,7 +721,7 @@
       "api": "csp_XBPQ",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/APP影院.json"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/APP影院.json"
     },
     {
       "key": "剧白白",
@@ -742,7 +730,7 @@
       "api": "csp_XBPQ",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/剧白白.json"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/剧白白.json"
     },
     {
       "key": "52看剧",
@@ -751,26 +739,7 @@
       "api": "csp_XBPQ",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/52看剧.json"
-    },
-    {
-      "key": "零度影视",
-      "name": "零度影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "./lib/零度影视.json"
-    },
-    {
-      "key": "手机影院",
-      "name": "手机影院",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "./lib/手机影院.json",
-      "jar": "./lib/xbpq-ocr.jar"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/52看剧.json"
     },
     {
       "key": "csp_Nbys",
@@ -779,7 +748,7 @@
       "api": "csp_NiNi",
       "searchable": 1,
       "changeable": 1,
-      "jar": "./lib/fm1004.jar;md5;badfd75846df45e8cf06b53654312ccf"
+      "jar": "https://gitee.com/emokjy/emo/raw/master/lib/fm1004.jar;md5;c8e6709a0cbaa5352b2a53d24e2eddb0"
     },
     {
       "key": "星星",
@@ -788,74 +757,74 @@
       "api": "csp_Star",
       "searchable": 1,
       "changeable": 1,
-      "jar": "./lib/fm1004.jar;md5;badfd75846df45e8cf06b53654312ccf"
+      "jar": "https://gitee.com/emokjy/emo/raw/master/lib/fm1004.jar;md5;c8e6709a0cbaa5352b2a53d24e2eddb0"
     },
     {
       "key": "唐人街影院",
       "name": "🛫唐人街海外",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/唐人街影视[飞].js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/唐人街影视[飞].js"
     },
     {
       "key": "吼吼",
       "name": "🛫吼吼海外",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./lib/吼吼[飞].js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/吼吼[飞].js"
     },
     {
       "key": "A8音乐",
       "name": "🎵A8MV",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "style": {
         "type": "rect",
         "ratio": 1.597
       },
       "searchable": 0,
       "changeable": 0,
-      "ext": "./lib/A8音乐.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/A8音乐.js"
     },
     {
       "key": "DJ哟哟音乐网",
       "name": "🎵DJ哟哟音乐",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 0,
       "changeable": 0,
-      "ext": "./lib/DJ音乐.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/DJ音乐.js"
     },
     {
       "key": "Jango",
       "name": "🎵Jango音乐",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 0,
       "changeable": 0,
-      "ext": "./lib/JangoIndex.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/JangoIndex.js"
     },
     {
       "key": "MV263",
       "name": "🎵MV263MV",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 0,
       "changeable": 0,
-      "ext": "./lib/MV263.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/MV263.js"
     },
     {
       "key": "啦啦DJ音乐网",
       "name": "🎵啦啦DJ音乐",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 0,
       "changeable": 0,
-      "ext": "./lib/啦啦DJ.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/啦啦DJ.js"
     },
     {
       "key": "短视频",
@@ -864,7 +833,7 @@
       "api": "csp_XBPQ",
       "searchable": 0,
       "changeable": 0,
-      "ext": "./lib/短视频.json"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/短视频.json"
     },
     {
       "key": "MV_vod",
@@ -881,7 +850,7 @@
       "api": "csp_XBPQ",
       "searchable": 0,
       "changeable": 0,
-      "ext": "./lib/酷奇MV.json"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/酷奇MV.json"
     },
     {
       "key": "csp_BBB",
@@ -890,7 +859,7 @@
       "api": "csp_Bili",
       "searchable": 0,
       "changeable": 0,
-      "ext": "./lib/哔哩哔哩合集.json"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/哔哩哔哩合集.json"
     },
     {
       "key": "csp_戏曲",
@@ -899,7 +868,7 @@
       "api": "csp_Bili",
       "searchable": 0,
       "changeable": 0,
-      "ext": "./lib/哔哩哔哩戏曲.json"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/哔哩哔哩戏曲.json"
     },
     {
       "key": "演唱会",
@@ -908,16 +877,16 @@
       "api": "csp_Bili",
       "searchable": 0,
       "changeable": 0,
-      "ext": "./lib/哔哩哔哩音乐.json"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/哔哩哔哩音乐.json"
     },
     {
       "key": "兔小贝",
       "name": "📚儿童启蒙",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 0,
       "changeable": 0,
-      "ext": "./lib/兔小贝.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/兔小贝.js"
     },
     {
       "key": "儿童",
@@ -926,7 +895,7 @@
       "api": "csp_Bili",
       "searchable": 0,
       "changeable": 0,
-      "ext": "./lib/哔哩哔哩少儿.json"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/哔哩哔哩少儿.json"
     },
     {
       "key": "小学",
@@ -935,7 +904,7 @@
       "api": "csp_Bili",
       "searchable": 0,
       "changeable": 0,
-      "ext": "./lib/哔哩哔哩小学.json"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/哔哩哔哩小学.json"
     },
     {
       "key": "初中",
@@ -944,7 +913,7 @@
       "api": "csp_Bili",
       "searchable": 0,
       "changeable": 0,
-      "ext": "./lib/哔哩哔哩初中.json"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/哔哩哔哩初中.json"
     },
     {
       "key": "高中",
@@ -953,16 +922,16 @@
       "api": "csp_Bili",
       "searchable": 0,
       "changeable": 0,
-      "ext": "./lib/哔哩哔哩高中.json"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/哔哩哔哩高中.json"
     },
     {
       "key": "JustLive",
       "name": "Just直播",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 0,
       "changeable": 0,
-      "ext": "./lib/JustLive.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/JustLive.js"
     },
     {
       "key": "网红直播",
@@ -976,10 +945,10 @@
       "key": "js虎牙",
       "name": "虎牙直播",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 0,
       "changeable": 0,
-      "ext": "./lib/虎牙直播.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/虎牙直播.js"
     },
     {
       "key": "csp_XYQBiu_斗鱼",
@@ -988,7 +957,7 @@
       "api": "csp_XYQBiu",
       "searchable": 0,
       "changeable": 0,
-      "ext": "./lib/斗鱼直播.json"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/斗鱼直播.json"
     },
     {
       "key": "企鹅体育",
@@ -997,25 +966,25 @@
       "api": "csp_XPath",
       "searchable": 0,
       "changeable": 0,
-      "ext": "./lib/企鹅体育.json"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/企鹅体育.json"
     },
     {
       "key": "310直播",
       "name": "⚽310看球",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 0,
       "changeable": 0,
-      "ext": "./lib/310直播.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/310直播.js"
     },
     {
       "key": "JRKAN直播",
       "name": "⚽JRKAN看球",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
       "searchable": 0,
       "changeable": 0,
-      "ext": "./lib/JRKAN直播.js"
+      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/JRKAN直播.js"
     },
     {
       "key": "七夜",
@@ -1302,7 +1271,7 @@
     {
       "name": "live",
       "type": 0,
-      "url": "https://ghproxy.com/https://raw.githubusercontent.com/fuhei1994/emo/main/emo.txt",
+      "url": "https://us1.wuaipan.com/api/v3/slave/source/1048576/dXBsb2Fkcy8yMDIzLzEwLzI5L2NpWDdSbnY0X2Vtby50eHQ/emo.txt?sign=nEGoiw_c32hSToKAFWtUBiNXqbuykpRvXqKuCrYjt5g%3D%3A0",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
