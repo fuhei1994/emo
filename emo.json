@@ -4,15 +4,12 @@
   "spider": "https://gitee.com/emokjy/emo/raw/master/JAR/emoP1.jar;md5;ce0225de185e6e9c31c59b0afa68f3e7",
   "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
   "sites": [
-    {
-      "key": "csp_好戏",
+   {
+      "key": "csp_农民",
       "name": "🌈EMO专享线路",
       "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://gitee.com/emokjy/emo/raw/master/lib/好戏.json"
+      "api": "https://gitee.com/emokjy/emo/raw/master/lib/drpy2.min.js",
+      "ext":"https://gitee.com/emokjy/emo/raw/master/lib/nm.js"
     },
     {
             "key": "索尼",
